@@ -15,7 +15,7 @@ contract StarNotary is ERC721 {
     // name: Is a short name to your token
     // symbol: Is a short string like 'USD' -> 'American Dollar'
      string public constant name = "Lily Token";
-    string public constant symbol = "LCR";
+     string public constant symbol = "LCR";
 
     // mapping the Star with the Owner Address
     mapping(uint256 => Star) public tokenIdToStarInfo;
